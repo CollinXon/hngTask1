@@ -6,9 +6,19 @@
         line-height: 1.9;
         overflow-x: auto;
 
+        margin: 0 auto;
+
+
 
     }
 
+
+
+    .container {
+        overflow: hidden;
+        width: 100%;
+
+    }
 
     #intro-css {
         text-align: center;
@@ -47,33 +57,39 @@
     }
 
     @media (max-width:538px) {
-        #intro-css {
-            font-size: 18px;
-        }
 
         header h2 {
             font-size: 20px;
         }
 
+        #section-css h2,
+        p,
+        ul {
+            font-size: 16px;
+        }
+
     }
 
     @media (max-width:376px) {
-        #intro-css {
-            font-size: 17px;
 
-        }
 
-        #section-css h2 {
+
+
+
+
+
+        #section-css h2,
+        p,
+        ul {
             font-size: 15px;
         }
 
-        ;
 
-        #section-css {
-            font-size: 60px;
-        }
 
-        header h2 {
-            font-size: 15px;
-        }
+
+
+
+
+
+
     }
